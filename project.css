@@ -565,6 +565,7 @@ height: 80px;
 margin-left: 235px;
 margin-bottom: 96px;
 border-radius: 100px;
+outline: none;
 background: var(--main-text-background-color);
 box-shadow: 0px 8px 20px -30px rgba(151, 109, 0, 0.08);
 }
@@ -575,7 +576,7 @@ font-style: normal;
 font-weight: var(--poppins-font-weight-one);
 line-height: 140%;
 letter-spacing: -0.36px;
-padding-left: 31px;
+padding-left: 41px;
 color: var(--name-color);
 }
 .button-form{
