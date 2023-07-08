@@ -135,18 +135,96 @@ color: var(--background-White);
 /* finish styling header */
 
 /* start styling hero section */
-.section-one{
+/* .section-one{
     padding-bottom: 150px;
-}
+} */
 .hero-section{
     display: flex;
     gap: 50px;
 }
 .hero-img{
-    width: 600px;
     height: auto;
-    padding-top: 64px;
+    padding-top: 54px;
 }
+/* rectangle one */
+.hero-rectangle-one{
+    position: relative;
+bottom: 150px;
+    display: flex;
+    width: 288px;
+    height: 70px;
+    border-radius: 35px;
+background: var(--main-text-background-color);
+box-shadow: 0px 20px 40px 0px rgba(255, 211, 71, 0.14);
+}
+[src="./salad-img/box1.png"]{
+    width: 60px;
+height: 60px;
+padding: 10px 0px 5px 7px;
+}
+.rectangle-information{
+    padding: 10px 0px 10px 16px;
+}
+.rectangle-name{
+font-family: var(--main-poppins-font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: var(--poppins-font-weight-three);
+line-height: normal;
+color: var(--name-color);
+}
+.rectangle-name+p{
+font-family: var(--main-poppins-font-family);
+font-size: 12px;
+font-style: normal;
+font-weight: var(--poppins-font-weight-three);
+line-height: 160%;
+color: var(--name-cards);
+}
+.rectangle-name+p span{
+color: var(--two-text-color);
+font-family: var(--main-poppins-font-family);
+font-size: 12px;
+font-style: normal;
+font-weight: var(--poppins-font-weight-three);
+line-height: normal;
+}
+/* box two  */
+.hero-rectangle-two{
+    width: 167.657px;
+height: 193px;
+    position: relative;
+        left: 380px;
+        bottom: 240px;
+    border-radius: 28px;
+    box-shadow: 0px 20px 40px 0px rgba(255, 211, 71, 0.14);
+background: var(--main-text-background-color);
+}
+.rectangle-text{
+font-family: var(--main-poppins-font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: var(--poppins-font-weight-two);
+line-height: 160%;
+padding: 16px 24px 0px 24px;
+color: var(--name-color);
+}
+.rectangle-name-two{
+    color: var(--name-cards);
+font-family: var(--main-poppins-font-family);
+font-size: 24px;
+font-style: normal;
+font-weight: var(--poppins-font-weight-three);
+line-height: 160%;
+padding-left: 24px;
+}
+.rectangle-name-two span{
+    color: var(--name-color);
+}
+[src="./salad-img/box2.png"]{
+    padding-left: 24px;
+}
+/* box two finish styles */
 .button-hero-one{
     width: 223px;
     height: 53px;
@@ -312,8 +390,8 @@ padding: 15px 50px 15px 24px;
 margin: 0px 160px 30px 40px;
 color: var(--name-color);
 }
-.learn-card:hover{
-    color: var(--cards-color);
+.card-information:hover .learn-card{
+    color: var(--background-White);
     border-radius: 100px;
 background: var(--main-color);
 }
