@@ -220,6 +220,7 @@ padding-left: 24px;
 }
 .rectangle-name-two span{
     color: var(--name-color);
+    margin-left: 5px;
 }
 [src="./salad-img/box2.png"]{
     padding-left: 24px;
